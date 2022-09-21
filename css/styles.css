@@ -1,0 +1,50 @@
+/*
+Para usar o css externo devemos linkar ele ao html destino
+*/
+
+p {
+    color: green;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+body {
+    background-color:black;
+    font-family:'Montserrat', sans-serif; /* fallback  escollhe a fonte arial caso não tenha use sans-serif*/
+}
+/*
+Tipos de seletor Básico
+1) Por elemento
+2) Por id (#) +> estilização única
+3) Por class (.)  => estilização p/ varios
+*/
+
+h1, h2, h3 {
+        color: white;
+}
+
+/* Uso o meu id quando quero utilizar um elemento especifico
+*/
+
+#meu-h1 {
+        font-weight: 100;
+}
+
+/*
+Posso aplicar a class em diversos elementos diferentes
+*/
+.cabecalho {
+    color:crimson;
+    text-decoration:underline ;
+    font-weight:900;
+}
+.quadrado {
+    width:250px;
+    height:250px;
+    background-color: yellow;
+    border-radius: 16px;
+}
+.banner {
+    width: 100%; /* pode se usar em px */
+    border-radius: 16px;
+}
