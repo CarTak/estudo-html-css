@@ -1,0 +1,12 @@
+body {
+    background-color:rgb(43, 130, 222);
+}
+img {
+    border-radius: 16px;
+    margin: 8px ;
+    object-position: center;
+}
+h1,h2 {
+    text-align: center;
+    text-decoration: double;
+}
