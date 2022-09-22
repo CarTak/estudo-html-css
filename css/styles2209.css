@@ -1,0 +1,62 @@
+h3 {
+    background-color: red;
+}
+
+.box1 {
+    background-color: coral;
+    /*espaçamento interno */
+    padding: 16px;
+    /* espaçamento externo */
+    margin: 8px;
+}
+
+.box2 {
+    background-color: green;
+    /* ordem do espaaçamento Topo Ld embaixo Le (sentido horário)*/
+    padding: 8px 20px 4px 10px;
+    margin: 8px 10px 20px 40px;
+}
+
+.box3 {
+    background-color: brown;
+    /* ordem das propriedades do border: espessura estilo cor*/
+    border: 2px solid yellow;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.box4 {
+    background-color: seagreen;
+    /*tamanho da box */
+    width: 400px;
+    padding: 20px;
+    border: 5px solid red;
+}
+
+/*  * = todos os elementos*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+   /* background: todas as propriedades abaixo em uma só linha de comando
+   background: url("https://soulcodeacademy.org/assets/images/logo/light-logo.png") right bottom no-repeat fixed contain=respeita a dimensão;
+    
+   /* background-color: yellow; <-cor de fundo*/
+    background-image: url("https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+    /*background-repeat: y=vertical x=horizontal */
+    background-repeat: no-repeat;
+    /* propriedades do background-position
+       cover = zoom
+       contain = respeita a dimensão
+       center = centraliza na pagina
+       right bottom = em baixo direita
+     */
+    background-position: right bottom;
+    /* background-attachment: fixed; fixa a imagem no navegador */
+    background-attachment: fixed;
+    /* height: 100vh; viewport height = vh */
+}
