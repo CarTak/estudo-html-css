@@ -1,0 +1,18 @@
+.Lib{
+    color: green;
+}
+.Sul {
+    color:orange;
+}
+.Reb {
+    color:red;
+}
+table {
+    table-layout: fixed;
+    align-self: center; 
+}
+body {
+    background-image: url(/img/Brasileirao.webp); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
