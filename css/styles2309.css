@@ -39,7 +39,7 @@ body {
 
 /* estiliza o td/th dentro de .my-table*/
 .my-table td, .my-table th {
-    border: 1px solid #ddd;
+    border: 1px solid $ddd;
     padding: 8px;
 }
 

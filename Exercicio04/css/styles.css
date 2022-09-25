@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: Impact,'Arial Narrow Bold';
+    margin: 0;
+}
+
+div {
+    display:inline-block ;
+}
+
+.my-button {
+    background-color: #706993;
+    border: none ;
+    color: white;
+ /*  padding: 8px 16px; */
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 4px 8px;
+    cursor: pointer;
+}
+
+.my-form {
+    display:inline-block;
+    border-radius: 8px;
+    background-color: #30638E;
+    padding: none;
+    width: 320px;
+    margin: auto;
+    margin-left: 30px;
+}
+
+.my-form:hover {
+    opacity: 0.5;
+ /*   background-color: #477998 ;      */
+}
+
+.my-form2{
+    margin-left: 200px;
+}
+
+.my-image {
+    border-radius:90px ;
+    margin: none;
+    padding: none;
+}
+
+.my-paragrafo {
+    font-size: 11px;
+}
+.my-button:hover {
+    background-color: darkred;
+}
+
+h1 {
+    text-align: center;
+    color:#324A5F;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    margin:10px 1px 10px 1px;
+    padding: 0px 20px;
+    color:#324A5F;
+}
+
+p {
+    font-family:'Arial',sans-serif ;
+    padding: 0px 20px;
+    color: #C4D6B0;
+    font-size: 15px;
+}
+
+.imagem{
+    border-radius: 8px;
+    width: 319px;
+    position: relative;
+    text-align: center;
+}
+
+STYLE {
+    opacity:0.6;
+}
