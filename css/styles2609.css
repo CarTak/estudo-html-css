@@ -30,6 +30,7 @@ body {
 }
 
 .box-1 {background-color: cadetblue;
+    align-self: flex-end;
     order: 1;
 }
 
@@ -49,7 +50,6 @@ body {
     width: 200px;
     padding: 8px;
     border-radius: 8px;
-    height: 250px;
 }
 
 .box-5 {
